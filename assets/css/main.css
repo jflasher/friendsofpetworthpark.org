@@ -1,0 +1,29 @@
+.footer-1 .upper {
+    background-color: inherit;
+}
+
+.footer-1 img {
+    margin: 0 20px;
+}
+
+.contact-1 {
+    padding-bottom: 0px;
+}
+
+@media (min-width: 767px) {
+  .about-img-1 {
+    background-image: url(../img/portraits/sarah.jpg);
+  }
+  .about-img-2 {
+    background-image: url(../img/portraits/julie.jpg);
+  }
+  .about-img-3 {
+    background-image: url(../img/portraits/emily.jpg);
+  }
+  .about-img-4 {
+    background-image: url(../img/portraits/jacqueline.jpg);
+  }
+  .about-img-5 {
+    background-image: url(../img/portraits/danielle.jpg);
+  }
+}
