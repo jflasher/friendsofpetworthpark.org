@@ -1,3 +1,6 @@
+---
+---
+
 .footer-1 .upper {
     background-color: inherit;
 }
@@ -11,19 +14,9 @@
 }
 
 @media (min-width: 767px) {
-  .about-img-1 {
-    background-image: url(../img/portraits/sarah.png);
-  }
-  .about-img-2 {
-    background-image: url(../img/portraits/julie.png);
-  }
-  .about-img-3 {
-    background-image: url(../img/portraits/emily.png);
-  }
-  .about-img-4 {
-    background-image: url(../img/portraits/jacqueline.png);
-  }
-  .about-img-5 {
-    background-image: url(../img/portraits/danielle.png);
-  }
+  {% for person in site.people %}
+    .about-img-{{ person.order }} {
+      background-image: url({{ person.image }});
+    }
+  {% endfor %}
 }

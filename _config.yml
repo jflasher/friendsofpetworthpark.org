@@ -1,0 +1,12 @@
+# Site settings
+title: Friends of Petwork Park
+description: > # this means to ignore newlines until "baseurl:"
+  Friends of Petworth Park represents a group of active area residents seeking
+  to maintain and improve the Petworth Recreational Center and surrounding
+  facilities located at the corner of 8th St. and Taylor St. NW, Washington, DC.
+baseurl: "friendsofpetworthpark.org"
+collections:
+- people
+
+# Build settings
+markdown: kramdown
