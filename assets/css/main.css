@@ -12,18 +12,18 @@
 
 @media (min-width: 767px) {
   .about-img-1 {
-    background-image: url(../img/portraits/sarah.jpg);
+    background-image: url(../img/portraits/sarah.png);
   }
   .about-img-2 {
-    background-image: url(../img/portraits/julie.jpg);
+    background-image: url(../img/portraits/julie.png);
   }
   .about-img-3 {
-    background-image: url(../img/portraits/emily.jpg);
+    background-image: url(../img/portraits/emily.png);
   }
   .about-img-4 {
-    background-image: url(../img/portraits/jacqueline.jpg);
+    background-image: url(../img/portraits/jacqueline.png);
   }
   .about-img-5 {
-    background-image: url(../img/portraits/danielle.jpg);
+    background-image: url(../img/portraits/danielle.png);
   }
 }
