@@ -1,5 +1,5 @@
 ---
-name: Stephen Feingold
+name: Sherman Lacey
 position: Member at Large
 image: 
 order: 4
